@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ItemRepositoryTestV3</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ItemRepositoryTestV3</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/hello.itemservice.domain.html">hello.itemservice.domain</a> &gt; ItemRepositoryTestV3</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.064s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">findItems()</td>
+<td class="success">0.076s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">save()</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateItem()</td>
+<td class="success">0.971s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>23:18:53.563 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:18:53.575 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:18:53.626 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.itemservice.domain.ItemRepositoryTestV3] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:18:53.641 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.itemservice.domain.ItemRepositoryTestV3], using SpringBootContextLoader
+23:18:53.646 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.itemservice.domain.ItemRepositoryTestV3]: class path resource [hello/itemservice/domain/ItemRepositoryTestV3-context.xml] does not exist
+23:18:53.647 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.itemservice.domain.ItemRepositoryTestV3]: class path resource [hello/itemservice/domain/ItemRepositoryTestV3Context.groovy] does not exist
+23:18:53.648 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.itemservice.domain.ItemRepositoryTestV3]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:18:53.649 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.itemservice.domain.ItemRepositoryTestV3]: ItemRepositoryTestV3 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:18:53.708 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.itemservice.domain.ItemRepositoryTestV3]
+23:18:53.803 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/tomatocho/spring-data-access-technology-practice/build/classes/java/main/hello/itemservice/ItemServiceApplication.class]
+23:18:53.806 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.itemservice.ItemServiceApplication for test class hello.itemservice.domain.ItemRepositoryTestV3
+23:18:53.961 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hello.itemservice.domain.ItemRepositoryTestV3]: using defaults.
+23:18:53.962 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+23:18:53.984 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@69adf72c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@797501a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1a15b789, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57f791c6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@51650883, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6c4f9535, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5bd1ceca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@30c31dd7, org.springframework.test.context.event.EventPublishingTestExecutionListener@499b2a5c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@596df867, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@c1fca1e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@241a53ef, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@344344fa, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2db2cd5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@70e659aa]
+23:18:53.990 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5be82d43 testClass = ItemRepositoryTestV3, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@600b0b7 testClass = ItemRepositoryTestV3, locations = '{}', classes = '{class hello.itemservice.ItemServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@32811494, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1d0d6318, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@758a34ce, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1522d8a0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4212a0c8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1e16c0aa], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.5)
+
+2023-08-07 23:18:54.467  INFO 88343 --- [    Test worker] h.i.domain.ItemRepositoryTestV3          : Starting ItemRepositoryTestV3 using Java 11.0.15 on johyeonhwaui-MacBookPro.local with PID 88343 (started by tomatocho in /Users/tomatocho/spring-data-access-technology-practice)
+2023-08-07 23:18:54.469  INFO 88343 --- [    Test worker] h.i.domain.ItemRepositoryTestV3          : The following 1 profile is active: &quot;test&quot;
+2023-08-07 23:18:56.224  INFO 88343 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-08-07 23:18:56.503 DEBUG 88343 --- [    Test worker] o.s.jdbc.datasource.DataSourceUtils      : Fetching JDBC Connection from DataSource
+2023-08-07 23:18:56.504  INFO 88343 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-07 23:18:56.761  INFO 88343 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-07 23:18:56.787 DEBUG 88343 --- [    Test worker] o.s.jdbc.datasource.DataSourceUtils      : Fetching JDBC Connection from DataSource
+2023-08-07 23:18:56.788 DEBUG 88343 --- [    Test worker] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/Users/tomatocho/spring-data-access-technology-practice/build/resources/test/schema.sql]
+2023-08-07 23:18:56.795 DEBUG 88343 --- [    Test worker] o.s.jdbc.datasource.init.ScriptUtils     : 0 returned as update count for SQL: drop table if exists item CASCADE
+2023-08-07 23:18:56.812 DEBUG 88343 --- [    Test worker] o.s.jdbc.datasource.init.ScriptUtils     : 0 returned as update count for SQL: create table item ( id bigint generated by default as identity, item_name varchar(10), price integer, quantity integer, primary key (id) )
+2023-08-07 23:18:56.812 DEBUG 88343 --- [    Test worker] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/Users/tomatocho/spring-data-access-technology-practice/build/resources/test/schema.sql] in 23 ms.
+2023-08-07 23:18:56.930  INFO 88343 --- [    Test worker] h.i.domain.ItemRepositoryTestV3          : Started ItemRepositoryTestV3 in 2.887 seconds (JVM running for 4.876)
+2023-08-07 23:18:56.966 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Creating new transaction with name [hello.itemservice.domain.ItemRepositoryTestV3.updateItem]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2023-08-07 23:18:56.967 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Acquired Connection [HikariProxyConnection@231055042 wrapping conn0: url=jdbc:h2:mem:testdb user=SA] for JDBC transaction
+2023-08-07 23:18:56.970 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Switching JDBC Connection [HikariProxyConnection@231055042 wrapping conn0: url=jdbc:h2:mem:testdb user=SA] to manual commit
+2023-08-07 23:18:56.971  INFO 88343 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@5be82d43 testClass = ItemRepositoryTestV3, testInstance = hello.itemservice.domain.ItemRepositoryTestV3@383cdd4d, testMethod = updateItem@ItemRepositoryTestV3, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@600b0b7 testClass = ItemRepositoryTestV3, locations = '{}', classes = '{class hello.itemservice.ItemServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@32811494, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1d0d6318, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@758a34ce, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1522d8a0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4212a0c8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1e16c0aa], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]; transaction manager [org.springframework.jdbc.support.JdbcTransactionManager@65036e8d]; rollback [true]
+2023-08-07 23:18:57.696 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : JdbcInsert not compiled before execution - invoking compile
+2023-08-07 23:18:57.702 DEBUG 88343 --- [    Test worker] o.s.j.c.m.TableMetaDataProviderFactory   : Using GenericTableMetaDataProvider
+2023-08-07 23:18:57.702 DEBUG 88343 --- [    Test worker] o.s.j.c.metadata.TableMetaDataProvider   : GetGeneratedKeys is supported
+2023-08-07 23:18:57.702 DEBUG 88343 --- [    Test worker] o.s.j.c.metadata.TableMetaDataProvider   : GeneratedKeysColumnNameArray is supported for H2
+2023-08-07 23:18:57.751 DEBUG 88343 --- [    Test worker] o.s.j.c.metadata.TableMetaDataProvider   : Retrieving meta-data for TESTDB/PUBLIC/ITEM
+2023-08-07 23:18:57.792 DEBUG 88343 --- [    Test worker] o.s.j.c.metadata.TableMetaDataProvider   : Retrieved meta-data: 'ID', sqlType=-5, nullable=false
+2023-08-07 23:18:57.793 DEBUG 88343 --- [    Test worker] o.s.j.c.metadata.TableMetaDataProvider   : Retrieved meta-data: 'ITEM_NAME', sqlType=12, nullable=true
+2023-08-07 23:18:57.793 DEBUG 88343 --- [    Test worker] o.s.j.c.metadata.TableMetaDataProvider   : Retrieved meta-data: 'PRICE', sqlType=4, nullable=true
+2023-08-07 23:18:57.793 DEBUG 88343 --- [    Test worker] o.s.j.c.metadata.TableMetaDataProvider   : Retrieved meta-data: 'QUANTITY', sqlType=4, nullable=true
+2023-08-07 23:18:57.794 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : Compiled insert object: insert string is [INSERT INTO item (ITEM_NAME, PRICE, QUANTITY) VALUES(?, ?, ?)]
+2023-08-07 23:18:57.794 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : JdbcInsert for table [item] compiled
+2023-08-07 23:18:57.799 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : The following parameters are used for call INSERT INTO item (ITEM_NAME, PRICE, QUANTITY) VALUES(?, ?, ?) with: [org.springframework.jdbc.core.SqlParameterValue@252c6cdb, org.springframework.jdbc.core.SqlParameterValue@61c87f1b, org.springframework.jdbc.core.SqlParameterValue@1857fe6c]
+2023-08-07 23:18:57.801 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2023-08-07 23:18:57.802 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement
+2023-08-07 23:18:57.803 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : Using generated keys support with array of column names.
+2023-08-07 23:18:57.807 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 1, SQL type 12, type name null
+2023-08-07 23:18:57.808 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 2, SQL type 4, type name null
+2023-08-07 23:18:57.809 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 3, SQL type 4, type name null
+2023-08-07 23:18:57.815 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2023-08-07 23:18:57.816 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [update item set item_name = ?, price = ?, quantity = ? where id = ?]
+2023-08-07 23:18:57.820 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2023-08-07 23:18:57.821 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [select id, item_name, price, quantity from item where id = ?]
+2023-08-07 23:18:57.822 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ID' to property 'id' of type 'java.lang.Long'
+2023-08-07 23:18:57.822 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ITEM_NAME' to property 'itemName' of type 'java.lang.String'
+2023-08-07 23:18:57.823 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'PRICE' to property 'price' of type 'java.lang.Integer'
+2023-08-07 23:18:57.823 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'QUANTITY' to property 'quantity' of type 'java.lang.Integer'
+2023-08-07 23:18:57.919 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Initiating transaction rollback
+2023-08-07 23:18:57.919 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Rolling back JDBC transaction on Connection [HikariProxyConnection@231055042 wrapping conn0: url=jdbc:h2:mem:testdb user=SA]
+2023-08-07 23:18:57.921 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Releasing JDBC Connection [HikariProxyConnection@231055042 wrapping conn0: url=jdbc:h2:mem:testdb user=SA] after transaction
+2023-08-07 23:18:57.921  INFO 88343 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@5be82d43 testClass = ItemRepositoryTestV3, testInstance = hello.itemservice.domain.ItemRepositoryTestV3@383cdd4d, testMethod = updateItem@ItemRepositoryTestV3, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@600b0b7 testClass = ItemRepositoryTestV3, locations = '{}', classes = '{class hello.itemservice.ItemServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@32811494, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1d0d6318, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@758a34ce, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1522d8a0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4212a0c8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1e16c0aa], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]
+2023-08-07 23:18:57.932 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Creating new transaction with name [hello.itemservice.domain.ItemRepositoryTestV3.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2023-08-07 23:18:57.932 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Acquired Connection [HikariProxyConnection@1072213311 wrapping conn0: url=jdbc:h2:mem:testdb user=SA] for JDBC transaction
+2023-08-07 23:18:57.932 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Switching JDBC Connection [HikariProxyConnection@1072213311 wrapping conn0: url=jdbc:h2:mem:testdb user=SA] to manual commit
+2023-08-07 23:18:57.933  INFO 88343 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@5be82d43 testClass = ItemRepositoryTestV3, testInstance = hello.itemservice.domain.ItemRepositoryTestV3@7462ba4b, testMethod = save@ItemRepositoryTestV3, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@600b0b7 testClass = ItemRepositoryTestV3, locations = '{}', classes = '{class hello.itemservice.ItemServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@32811494, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1d0d6318, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@758a34ce, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1522d8a0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4212a0c8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1e16c0aa], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]; transaction manager [org.springframework.jdbc.support.JdbcTransactionManager@65036e8d]; rollback [true]
+2023-08-07 23:18:57.936 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : The following parameters are used for call INSERT INTO item (ITEM_NAME, PRICE, QUANTITY) VALUES(?, ?, ?) with: [org.springframework.jdbc.core.SqlParameterValue@4b09d1c3, org.springframework.jdbc.core.SqlParameterValue@18811c42, org.springframework.jdbc.core.SqlParameterValue@627acb38]
+2023-08-07 23:18:57.937 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2023-08-07 23:18:57.938 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement
+2023-08-07 23:18:57.938 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : Using generated keys support with array of column names.
+2023-08-07 23:18:57.939 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 1, SQL type 12, type name null
+2023-08-07 23:18:57.939 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 2, SQL type 4, type name null
+2023-08-07 23:18:57.939 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 3, SQL type 4, type name null
+2023-08-07 23:18:57.940 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2023-08-07 23:18:57.941 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [select id, item_name, price, quantity from item where id = ?]
+2023-08-07 23:18:57.941 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ID' to property 'id' of type 'java.lang.Long'
+2023-08-07 23:18:57.942 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ITEM_NAME' to property 'itemName' of type 'java.lang.String'
+2023-08-07 23:18:57.942 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'PRICE' to property 'price' of type 'java.lang.Integer'
+2023-08-07 23:18:57.942 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'QUANTITY' to property 'quantity' of type 'java.lang.Integer'
+2023-08-07 23:18:57.944 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Initiating transaction rollback
+2023-08-07 23:18:57.945 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Rolling back JDBC transaction on Connection [HikariProxyConnection@1072213311 wrapping conn0: url=jdbc:h2:mem:testdb user=SA]
+2023-08-07 23:18:57.945 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Releasing JDBC Connection [HikariProxyConnection@1072213311 wrapping conn0: url=jdbc:h2:mem:testdb user=SA] after transaction
+2023-08-07 23:18:57.946  INFO 88343 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@5be82d43 testClass = ItemRepositoryTestV3, testInstance = hello.itemservice.domain.ItemRepositoryTestV3@7462ba4b, testMethod = save@ItemRepositoryTestV3, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@600b0b7 testClass = ItemRepositoryTestV3, locations = '{}', classes = '{class hello.itemservice.ItemServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@32811494, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1d0d6318, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@758a34ce, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1522d8a0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4212a0c8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1e16c0aa], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]
+2023-08-07 23:18:57.950 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Creating new transaction with name [hello.itemservice.domain.ItemRepositoryTestV3.findItems]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2023-08-07 23:18:57.950 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Acquired Connection [HikariProxyConnection@103402417 wrapping conn0: url=jdbc:h2:mem:testdb user=SA] for JDBC transaction
+2023-08-07 23:18:57.951 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Switching JDBC Connection [HikariProxyConnection@103402417 wrapping conn0: url=jdbc:h2:mem:testdb user=SA] to manual commit
+2023-08-07 23:18:57.951  INFO 88343 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@5be82d43 testClass = ItemRepositoryTestV3, testInstance = hello.itemservice.domain.ItemRepositoryTestV3@165aa43a, testMethod = findItems@ItemRepositoryTestV3, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@600b0b7 testClass = ItemRepositoryTestV3, locations = '{}', classes = '{class hello.itemservice.ItemServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@32811494, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1d0d6318, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@758a34ce, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1522d8a0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4212a0c8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1e16c0aa], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]; transaction manager [org.springframework.jdbc.support.JdbcTransactionManager@65036e8d]; rollback [true]
+2023-08-07 23:18:57.954 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : The following parameters are used for call INSERT INTO item (ITEM_NAME, PRICE, QUANTITY) VALUES(?, ?, ?) with: [org.springframework.jdbc.core.SqlParameterValue@22cd8ec2, org.springframework.jdbc.core.SqlParameterValue@7d977a20, org.springframework.jdbc.core.SqlParameterValue@35ab4260]
+2023-08-07 23:18:57.954 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2023-08-07 23:18:57.955 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement
+2023-08-07 23:18:57.955 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : Using generated keys support with array of column names.
+2023-08-07 23:18:57.956 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 1, SQL type 12, type name null
+2023-08-07 23:18:57.956 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 2, SQL type 4, type name null
+2023-08-07 23:18:57.956 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 3, SQL type 4, type name null
+2023-08-07 23:18:57.958 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : The following parameters are used for call INSERT INTO item (ITEM_NAME, PRICE, QUANTITY) VALUES(?, ?, ?) with: [org.springframework.jdbc.core.SqlParameterValue@76134b9b, org.springframework.jdbc.core.SqlParameterValue@38667005, org.springframework.jdbc.core.SqlParameterValue@7ee64b53]
+2023-08-07 23:18:57.958 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2023-08-07 23:18:57.958 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement
+2023-08-07 23:18:57.958 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : Using generated keys support with array of column names.
+2023-08-07 23:18:57.958 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 1, SQL type 12, type name null
+2023-08-07 23:18:57.959 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 2, SQL type 4, type name null
+2023-08-07 23:18:57.959 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 3, SQL type 4, type name null
+2023-08-07 23:18:57.960 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : The following parameters are used for call INSERT INTO item (ITEM_NAME, PRICE, QUANTITY) VALUES(?, ?, ?) with: [org.springframework.jdbc.core.SqlParameterValue@1131aead, org.springframework.jdbc.core.SqlParameterValue@7d126083, org.springframework.jdbc.core.SqlParameterValue@76ffc17c]
+2023-08-07 23:18:57.960 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2023-08-07 23:18:57.960 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement
+2023-08-07 23:18:57.960 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.simple.SimpleJdbcInsert    : Using generated keys support with array of column names.
+2023-08-07 23:18:57.960 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 1, SQL type 12, type name null
+2023-08-07 23:18:57.960 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 2, SQL type 4, type name null
+2023-08-07 23:18:57.960 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.StatementCreatorUtils      : Overriding type info with runtime info from SqlParameterValue: column index 3, SQL type 4, type name null
+2023-08-07 23:18:57.961  INFO 88343 --- [    Test worker] h.i.r.j.JdbcTemplateItemRepositoryV3     : sql=select id, item_name, price, quantity from item
+2023-08-07 23:18:57.962 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2023-08-07 23:18:57.962 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [select id, item_name, price, quantity from item]
+2023-08-07 23:18:57.963 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ID' to property 'id' of type 'java.lang.Long'
+2023-08-07 23:18:57.964 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ITEM_NAME' to property 'itemName' of type 'java.lang.String'
+2023-08-07 23:18:57.964 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'PRICE' to property 'price' of type 'java.lang.Integer'
+2023-08-07 23:18:57.965 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'QUANTITY' to property 'quantity' of type 'java.lang.Integer'
+2023-08-07 23:18:57.984  INFO 88343 --- [    Test worker] h.i.r.j.JdbcTemplateItemRepositoryV3     : sql=select id, item_name, price, quantity from item
+2023-08-07 23:18:57.984 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2023-08-07 23:18:57.984 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [select id, item_name, price, quantity from item]
+2023-08-07 23:18:57.985 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ID' to property 'id' of type 'java.lang.Long'
+2023-08-07 23:18:57.986 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ITEM_NAME' to property 'itemName' of type 'java.lang.String'
+2023-08-07 23:18:57.987 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'PRICE' to property 'price' of type 'java.lang.Integer'
+2023-08-07 23:18:57.987 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'QUANTITY' to property 'quantity' of type 'java.lang.Integer'
+2023-08-07 23:18:57.991  INFO 88343 --- [    Test worker] h.i.r.j.JdbcTemplateItemRepositoryV3     : sql=select id, item_name, price, quantity from item where item_name like concat('%',:itemName,'%')
+2023-08-07 23:18:57.995 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2023-08-07 23:18:57.995 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [select id, item_name, price, quantity from item where item_name like concat('%',?,'%')]
+2023-08-07 23:18:58.001 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ID' to property 'id' of type 'java.lang.Long'
+2023-08-07 23:18:58.001 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ITEM_NAME' to property 'itemName' of type 'java.lang.String'
+2023-08-07 23:18:58.002 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'PRICE' to property 'price' of type 'java.lang.Integer'
+2023-08-07 23:18:58.003 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'QUANTITY' to property 'quantity' of type 'java.lang.Integer'
+2023-08-07 23:18:58.003  INFO 88343 --- [    Test worker] h.i.r.j.JdbcTemplateItemRepositoryV3     : sql=select id, item_name, price, quantity from item where item_name like concat('%',:itemName,'%')
+2023-08-07 23:18:58.004 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2023-08-07 23:18:58.004 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [select id, item_name, price, quantity from item where item_name like concat('%',?,'%')]
+2023-08-07 23:18:58.005 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ID' to property 'id' of type 'java.lang.Long'
+2023-08-07 23:18:58.005 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ITEM_NAME' to property 'itemName' of type 'java.lang.String'
+2023-08-07 23:18:58.006 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'PRICE' to property 'price' of type 'java.lang.Integer'
+2023-08-07 23:18:58.007 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'QUANTITY' to property 'quantity' of type 'java.lang.Integer'
+2023-08-07 23:18:58.008  INFO 88343 --- [    Test worker] h.i.r.j.JdbcTemplateItemRepositoryV3     : sql=select id, item_name, price, quantity from item where item_name like concat('%',:itemName,'%')
+2023-08-07 23:18:58.009 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2023-08-07 23:18:58.009 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [select id, item_name, price, quantity from item where item_name like concat('%',?,'%')]
+2023-08-07 23:18:58.010 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ID' to property 'id' of type 'java.lang.Long'
+2023-08-07 23:18:58.011 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ITEM_NAME' to property 'itemName' of type 'java.lang.String'
+2023-08-07 23:18:58.012 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'PRICE' to property 'price' of type 'java.lang.Integer'
+2023-08-07 23:18:58.012 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'QUANTITY' to property 'quantity' of type 'java.lang.Integer'
+2023-08-07 23:18:58.013  INFO 88343 --- [    Test worker] h.i.r.j.JdbcTemplateItemRepositoryV3     : sql=select id, item_name, price, quantity from item where price &lt;= :maxPrice
+2023-08-07 23:18:58.013 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2023-08-07 23:18:58.013 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [select id, item_name, price, quantity from item where price &lt;= ?]
+2023-08-07 23:18:58.015 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ID' to property 'id' of type 'java.lang.Long'
+2023-08-07 23:18:58.015 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ITEM_NAME' to property 'itemName' of type 'java.lang.String'
+2023-08-07 23:18:58.015 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'PRICE' to property 'price' of type 'java.lang.Integer'
+2023-08-07 23:18:58.016 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'QUANTITY' to property 'quantity' of type 'java.lang.Integer'
+2023-08-07 23:18:58.017  INFO 88343 --- [    Test worker] h.i.r.j.JdbcTemplateItemRepositoryV3     : sql=select id, item_name, price, quantity from item where item_name like concat('%',:itemName,'%') and price &lt;= :maxPrice
+2023-08-07 23:18:58.018 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2023-08-07 23:18:58.019 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [select id, item_name, price, quantity from item where item_name like concat('%',?,'%') and price &lt;= ?]
+2023-08-07 23:18:58.019 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ID' to property 'id' of type 'java.lang.Long'
+2023-08-07 23:18:58.020 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'ITEM_NAME' to property 'itemName' of type 'java.lang.String'
+2023-08-07 23:18:58.020 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'PRICE' to property 'price' of type 'java.lang.Integer'
+2023-08-07 23:18:58.021 DEBUG 88343 --- [    Test worker] o.s.jdbc.core.BeanPropertyRowMapper      : Mapping column 'QUANTITY' to property 'quantity' of type 'java.lang.Integer'
+2023-08-07 23:18:58.024 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Initiating transaction rollback
+2023-08-07 23:18:58.024 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Rolling back JDBC transaction on Connection [HikariProxyConnection@103402417 wrapping conn0: url=jdbc:h2:mem:testdb user=SA]
+2023-08-07 23:18:58.025 DEBUG 88343 --- [    Test worker] o.s.jdbc.support.JdbcTransactionManager  : Releasing JDBC Connection [HikariProxyConnection@103402417 wrapping conn0: url=jdbc:h2:mem:testdb user=SA] after transaction
+2023-08-07 23:18:58.025  INFO 88343 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@5be82d43 testClass = ItemRepositoryTestV3, testInstance = hello.itemservice.domain.ItemRepositoryTestV3@165aa43a, testMethod = findItems@ItemRepositoryTestV3, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@600b0b7 testClass = ItemRepositoryTestV3, locations = '{}', classes = '{class hello.itemservice.ItemServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@32811494, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1d0d6318, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@758a34ce, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1522d8a0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4212a0c8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1e16c0aa], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.2</a> at 2023. 8. 7. 오후 11:18:58</p>
+</div>
+</div>
+</body>
+</html>
