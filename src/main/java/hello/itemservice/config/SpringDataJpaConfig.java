@@ -25,5 +25,4 @@ public class SpringDataJpaConfig {
         return new JpaItemRepositoryV2(springDataJpaItemRepository);
     }
 
-
 }
